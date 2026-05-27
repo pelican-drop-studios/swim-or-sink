@@ -1,13 +1,13 @@
 //
-//  Pearl_RushUITests.swift
-//  Pearl RushUITests
+//  SinkOrSwimUITests.swift
+//  Sink or Swim UITests
 //
 //  Created by Brayden Weismantel on 17/3/2026.
 //
 
 import XCTest
 
-final class Pearl_RushUITests: XCTestCase {
+final class SinkOrSwimUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

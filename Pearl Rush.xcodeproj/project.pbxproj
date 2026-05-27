@@ -6,56 +6,63 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		541D1BD12F6E5DF600CD6F2F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 541D1BD02F6E5DF600CD6F2F /* StoreKit.framework */; };
+		541D1BD72F6E62E500CD6F2F /* Products.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 541D1BD62F6E62E500CD6F2F /* Products.storekit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		54E6ACDB2F69240C00E21BC6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 54E6ACC12F69240A00E21BC6 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 54E6ACC82F69240A00E21BC6;
-			remoteInfo = "Pearl Rush";
+			remoteInfo = "Sink or Swim";
 		};
 		54E6ACE52F69240C00E21BC6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 54E6ACC12F69240A00E21BC6 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 54E6ACC82F69240A00E21BC6;
-			remoteInfo = "Pearl Rush";
+			remoteInfo = "Sink or Swim";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		54E6ACC92F69240A00E21BC6 /* Pearl Rush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pearl Rush.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		54E6ACDA2F69240C00E21BC6 /* Pearl RushTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pearl RushTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		54E6ACE42F69240C00E21BC6 /* Pearl RushUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pearl RushUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		541D1BD02F6E5DF600CD6F2F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		541D1BD62F6E62E500CD6F2F /* Products.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Products.storekit; sourceTree = "<group>"; };
+		54E6ACC92F69240A00E21BC6 /* Sink or Swim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sink or Swim.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54E6ACDA2F69240C00E21BC6 /* Sink or SwimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sink or SwimTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54E6ACE42F69240C00E21BC6 /* Sink or SwimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sink or SwimUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		54E6ACEC2F69240C00E21BC6 /* Exceptions for "Pearl Rush" folder in "Pearl Rush" target */ = {
+		54E6ACEC2F69240C00E21BC6 /* Exceptions for "Sink or Swim" folder in "Sink or Swim" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 54E6ACC82F69240A00E21BC6 /* Pearl Rush */;
+			target = 54E6ACC82F69240A00E21BC6 /* Sink or Swim */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		54E6ACCB2F69240A00E21BC6 /* Pearl Rush */ = {
+		54E6ACCB2F69240A00E21BC6 /* Sink or Swim */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				54E6ACEC2F69240C00E21BC6 /* Exceptions for "Pearl Rush" folder in "Pearl Rush" target */,
+				54E6ACEC2F69240C00E21BC6 /* Exceptions for "Sink or Swim" folder in "Sink or Swim" target */,
 			);
-			path = "Pearl Rush";
+			path = "Sink or Swim";
 			sourceTree = "<group>";
 		};
-		54E6ACDD2F69240C00E21BC6 /* Pearl RushTests */ = {
+		54E6ACDD2F69240C00E21BC6 /* Sink or SwimTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Pearl RushTests";
+			path = "Sink or SwimTests";
 			sourceTree = "<group>";
 		};
-		54E6ACE72F69240C00E21BC6 /* Pearl RushUITests */ = {
+		54E6ACE72F69240C00E21BC6 /* Sink or SwimUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Pearl RushUITests";
+			path = "Sink or SwimUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -65,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				541D1BD12F6E5DF600CD6F2F /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,12 +93,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		541D1BCF2F6E5DF600CD6F2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				541D1BD02F6E5DF600CD6F2F /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		54E6ACC02F69240A00E21BC6 = {
 			isa = PBXGroup;
 			children = (
-				54E6ACCB2F69240A00E21BC6 /* Pearl Rush */,
-				54E6ACDD2F69240C00E21BC6 /* Pearl RushTests */,
-				54E6ACE72F69240C00E21BC6 /* Pearl RushUITests */,
+				541D1BD62F6E62E500CD6F2F /* Products.storekit */,
+				54E6ACCB2F69240A00E21BC6 /* Sink or Swim */,
+				54E6ACDD2F69240C00E21BC6 /* Sink or SwimTests */,
+				54E6ACE72F69240C00E21BC6 /* Sink or SwimUITests */,
+				541D1BCF2F6E5DF600CD6F2F /* Frameworks */,
 				54E6ACCA2F69240A00E21BC6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,9 +116,9 @@
 		54E6ACCA2F69240A00E21BC6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				54E6ACC92F69240A00E21BC6 /* Pearl Rush.app */,
-				54E6ACDA2F69240C00E21BC6 /* Pearl RushTests.xctest */,
-				54E6ACE42F69240C00E21BC6 /* Pearl RushUITests.xctest */,
+				54E6ACC92F69240A00E21BC6 /* Sink or Swim.app */,
+				54E6ACDA2F69240C00E21BC6 /* Sink or SwimTests.xctest */,
+				54E6ACE42F69240C00E21BC6 /* Sink or SwimUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,9 +126,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		54E6ACC82F69240A00E21BC6 /* Pearl Rush */ = {
+		54E6ACC82F69240A00E21BC6 /* Sink or Swim */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54E6ACED2F69240C00E21BC6 /* Build configuration list for PBXNativeTarget "Pearl Rush" */;
+			buildConfigurationList = 54E6ACED2F69240C00E21BC6 /* Build configuration list for PBXNativeTarget "Sink or Swim" */;
 			buildPhases = (
 				54E6ACC52F69240A00E21BC6 /* Sources */,
 				54E6ACC62F69240A00E21BC6 /* Frameworks */,
@@ -121,18 +139,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				54E6ACCB2F69240A00E21BC6 /* Pearl Rush */,
+				54E6ACCB2F69240A00E21BC6 /* Sink or Swim */,
 			);
-			name = "Pearl Rush";
+			name = "Sink or Swim";
 			packageProductDependencies = (
 			);
-			productName = "Pearl Rush";
-			productReference = 54E6ACC92F69240A00E21BC6 /* Pearl Rush.app */;
+			productName = "Sink or Swim";
+			productReference = 54E6ACC92F69240A00E21BC6 /* Sink or Swim.app */;
 			productType = "com.apple.product-type.application";
 		};
-		54E6ACD92F69240C00E21BC6 /* Pearl RushTests */ = {
+		54E6ACD92F69240C00E21BC6 /* Sink or SwimTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54E6ACF22F69240C00E21BC6 /* Build configuration list for PBXNativeTarget "Pearl RushTests" */;
+			buildConfigurationList = 54E6ACF22F69240C00E21BC6 /* Build configuration list for PBXNativeTarget "Sink or SwimTests" */;
 			buildPhases = (
 				54E6ACD62F69240C00E21BC6 /* Sources */,
 				54E6ACD72F69240C00E21BC6 /* Frameworks */,
@@ -144,18 +162,18 @@
 				54E6ACDC2F69240C00E21BC6 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				54E6ACDD2F69240C00E21BC6 /* Pearl RushTests */,
+				54E6ACDD2F69240C00E21BC6 /* Sink or SwimTests */,
 			);
-			name = "Pearl RushTests";
+			name = "Sink or SwimTests";
 			packageProductDependencies = (
 			);
-			productName = "Pearl RushTests";
-			productReference = 54E6ACDA2F69240C00E21BC6 /* Pearl RushTests.xctest */;
+			productName = "Sink or SwimTests";
+			productReference = 54E6ACDA2F69240C00E21BC6 /* Sink or SwimTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		54E6ACE32F69240C00E21BC6 /* Pearl RushUITests */ = {
+		54E6ACE32F69240C00E21BC6 /* Sink or SwimUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54E6ACF52F69240C00E21BC6 /* Build configuration list for PBXNativeTarget "Pearl RushUITests" */;
+			buildConfigurationList = 54E6ACF52F69240C00E21BC6 /* Build configuration list for PBXNativeTarget "Sink or SwimUITests" */;
 			buildPhases = (
 				54E6ACE02F69240C00E21BC6 /* Sources */,
 				54E6ACE12F69240C00E21BC6 /* Frameworks */,
@@ -167,13 +185,13 @@
 				54E6ACE62F69240C00E21BC6 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				54E6ACE72F69240C00E21BC6 /* Pearl RushUITests */,
+				54E6ACE72F69240C00E21BC6 /* Sink or SwimUITests */,
 			);
-			name = "Pearl RushUITests";
+			name = "Sink or SwimUITests";
 			packageProductDependencies = (
 			);
-			productName = "Pearl RushUITests";
-			productReference = 54E6ACE42F69240C00E21BC6 /* Pearl RushUITests.xctest */;
+			productName = "Sink or SwimUITests";
+			productReference = 54E6ACE42F69240C00E21BC6 /* Sink or SwimUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -199,7 +217,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 54E6ACC42F69240A00E21BC6 /* Build configuration list for PBXProject "Pearl Rush" */;
+			buildConfigurationList = 54E6ACC42F69240A00E21BC6 /* Build configuration list for PBXProject "Sink or Swim" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -213,9 +231,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				54E6ACC82F69240A00E21BC6 /* Pearl Rush */,
-				54E6ACD92F69240C00E21BC6 /* Pearl RushTests */,
-				54E6ACE32F69240C00E21BC6 /* Pearl RushUITests */,
+				54E6ACC82F69240A00E21BC6 /* Sink or Swim */,
+				54E6ACD92F69240C00E21BC6 /* Sink or SwimTests */,
+				54E6ACE32F69240C00E21BC6 /* Sink or SwimUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -225,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				541D1BD72F6E62E500CD6F2F /* Products.storekit in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,12 +290,12 @@
 /* Begin PBXTargetDependency section */
 		54E6ACDC2F69240C00E21BC6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 54E6ACC82F69240A00E21BC6 /* Pearl Rush */;
+			target = 54E6ACC82F69240A00E21BC6 /* Sink or Swim */;
 			targetProxy = 54E6ACDB2F69240C00E21BC6 /* PBXContainerItemProxy */;
 		};
 		54E6ACE62F69240C00E21BC6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 54E6ACC82F69240A00E21BC6 /* Pearl Rush */;
+			target = 54E6ACC82F69240A00E21BC6 /* Sink or Swim */;
 			targetProxy = 54E6ACE52F69240C00E21BC6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -287,23 +306,27 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Pearl Rush/Pearl_Rush.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Sink or Swim/Sink_or_Swim.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = LQHDV5VLD4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Pearl Rush/Info.plist";
+				INFOPLIST_FILE = "Sink or Swim/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Sink or Swim";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Pearl-Rush.Pearl-Rush";
+				MARKETING_VERSION = 1.0.4;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pelicanDropStudios.sinkOrSwim";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -320,23 +343,27 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Pearl Rush/Pearl_Rush.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Sink or Swim/Sink_or_Swim.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = LQHDV5VLD4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Pearl Rush/Info.plist";
+				INFOPLIST_FILE = "Sink or Swim/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Sink or Swim";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Pearl-Rush.Pearl-Rush";
+				MARKETING_VERSION = 1.0.4;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pelicanDropStudios.sinkOrSwim";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -476,7 +503,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Pearl-Rush.Pearl-RushTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pelicanDropStudios.sinkOrSwimTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -484,7 +511,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pearl Rush.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pearl Rush";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sink or Swim.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sink or Swim";
 			};
 			name = Debug;
 		};
@@ -497,7 +524,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Pearl-Rush.Pearl-RushTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pelicanDropStudios.sinkOrSwimTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -505,7 +532,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pearl Rush.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pearl Rush";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sink or Swim.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sink or Swim";
 			};
 			name = Release;
 		};
@@ -516,7 +543,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Pearl-Rush.Pearl-RushUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pelicanDropStudios.sinkOrSwimUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -524,7 +551,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Pearl Rush";
+				TEST_TARGET_NAME = "Sink or Swim";
 			};
 			name = Debug;
 		};
@@ -535,7 +562,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Pearl-Rush.Pearl-RushUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pelicanDropStudios.sinkOrSwimUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -543,14 +570,14 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Pearl Rush";
+				TEST_TARGET_NAME = "Sink or Swim";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		54E6ACC42F69240A00E21BC6 /* Build configuration list for PBXProject "Pearl Rush" */ = {
+		54E6ACC42F69240A00E21BC6 /* Build configuration list for PBXProject "Sink or Swim" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				54E6ACF02F69240C00E21BC6 /* Debug */,
@@ -559,7 +586,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54E6ACED2F69240C00E21BC6 /* Build configuration list for PBXNativeTarget "Pearl Rush" */ = {
+		54E6ACED2F69240C00E21BC6 /* Build configuration list for PBXNativeTarget "Sink or Swim" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				54E6ACEE2F69240C00E21BC6 /* Debug */,
@@ -568,7 +595,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54E6ACF22F69240C00E21BC6 /* Build configuration list for PBXNativeTarget "Pearl RushTests" */ = {
+		54E6ACF22F69240C00E21BC6 /* Build configuration list for PBXNativeTarget "Sink or SwimTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				54E6ACF32F69240C00E21BC6 /* Debug */,
@@ -577,7 +604,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54E6ACF52F69240C00E21BC6 /* Build configuration list for PBXNativeTarget "Pearl RushUITests" */ = {
+		54E6ACF52F69240C00E21BC6 /* Build configuration list for PBXNativeTarget "Sink or SwimUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				54E6ACF62F69240C00E21BC6 /* Debug */,

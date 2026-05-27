@@ -1,13 +1,13 @@
 //
-//  Pearl_RushUITestsLaunchTests.swift
-//  Pearl RushUITests
+//  SinkOrSwimUITestsLaunchTests.swift
+//  Sink or Swim UITests
 //
 //  Created by Brayden Weismantel on 17/3/2026.
 //
 
 import XCTest
 
-final class Pearl_RushUITestsLaunchTests: XCTestCase {
+final class SinkOrSwimUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

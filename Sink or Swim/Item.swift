@@ -1,6 +1,6 @@
 //
 //  Item.swift
-//  Pearl Rush
+//  Swim or Sink
 //
 //  Created by Brayden Weismantel on 17/3/2026.
 //
