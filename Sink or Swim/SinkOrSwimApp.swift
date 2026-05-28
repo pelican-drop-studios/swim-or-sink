@@ -18,11 +18,15 @@ struct SinkOrSwimApp: App {
                 .environment(storeManager)
                 .environment(adManager)
                 .task {
-                    await storeManager.loadProducts()
-                    await storeManager.checkCurrentEntitlements()
+                    if StoreManager.adsFeatureAvailable {
+                        await storeManager.loadProducts()
+                        await storeManager.checkCurrentEntitlements()
+                    }
                 }
                 .task {
-                    await storeManager.listenForTransactions()
+                    if StoreManager.adsFeatureAvailable {
+                        await storeManager.listenForTransactions()
+                    }
                 }
         }
     }

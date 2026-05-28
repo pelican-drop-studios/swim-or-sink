@@ -7,11 +7,13 @@ import StoreKit
 
 @Observable
 class StoreManager {
+    static let adsFeatureAvailable = true
+
     private(set) var isAdsRemoved: Bool = false
     private(set) var product: Product? = nil
     private(set) var purchaseState: PurchaseState = .idle
 
-    static let productID = "com.sinkorswim.removeads"
+    static let productID = "com.pelicanDropStudios.sinkOrSwim.removeAds"
     private static let userDefaultsKey = "adsRemoved"
 
     enum PurchaseState: Equatable {

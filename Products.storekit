@@ -25,7 +25,7 @@
           "locale" : "en_US"
         }
       ],
-      "productID" : "com.sinkorswim.removeads",
+      "productID" : "com.pelicanDropStudios.sinkOrSwim.removeAds",
       "referenceName" : "Remove Ads",
       "type" : "NonConsumable"
     }

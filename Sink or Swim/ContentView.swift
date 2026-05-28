@@ -774,6 +774,7 @@ struct ContentView: View {
                 vm.screenHeight = geo.size.height
             }
         }
+        .ignoresSafeArea()
     }
 }
 
@@ -1924,14 +1925,14 @@ struct DeathView: View {
             Button {
                 guard !isSharing else { return }
                 isSharing = true
+                let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene
                 let renderer = ImageRenderer(content: ScoreboardImage(score: score, best: best, pearls: pearls, difficulty: difficulty))
-                renderer.scale = UIScreen.main.scale
+                renderer.scale = windowScene?.screen.scale ?? 3.0
                 if let image = renderer.uiImage {
                     let text = "I scored \(score) points on \(difficulty.label) in Swim or Sink! Can you beat me?\nDownload: https://apps.apple.com/app/id6760926427"
                     let ac = UIActivityViewController(activityItems: [image, text], applicationActivities: nil)
                     ac.completionWithItemsHandler = { _, _, _, _ in isSharing = false }
-                    if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
-                       let root = windowScene.windows.first?.rootViewController {
+                    if let root = windowScene?.windows.first?.rootViewController {
                         root.present(ac, animated: true)
                     } else {
                         isSharing = false
